@@ -8,15 +8,18 @@
 </head>
 <body>
     <h1>JS Wainwrights Lab</h1>
-    <form id="filter-form">
-        <input type="text" id="filter-input" placeholder="Filter by name">
-        <button type="submit">Filter</button>
-    </form>
-    <section id="wainwrightsContainer">
+    <section id="wainwrights-container">
 
+        <form id="filter-wainwrights-form">
+            <label for="filter-term">Search:</label>
+            <input id="filter-term" type="text" />
+            <input type="submit">
+        </form>
+
+        <h2 id="dynamic-heading">Wainwrights</h2>
         <ul id="wainwrights-list">
-            
+            <p>Awaiting API...</p>
         </ul>
+
     </section>
 </body>
-</html>
